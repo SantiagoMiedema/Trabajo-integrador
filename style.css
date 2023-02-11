@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,100&display=swap');
+
+:root{
+    --backgroundcolornav: #0f0e17;
+    --orange: #ff8906;
+    --grey: #a7a9be;
+    --secondary: #f25f4c;
+    --backgroundmain: #1E1C2A;
+}
+
+*{
+    margin: 0 ; 
+    padding: 0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    width:100%;
+    z-index: 1;
+}
+
+
+header{
+    background: var(--backgroundcolornav);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 20px 30px 20px 10px;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar__logo {
+    height: 90%;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+     padding-left: 11%;
+}
+
+.navbar__list{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.navbar__login{
+    display: flex;
+    gap: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+
+.navbar__login a{
+    align-items: center;
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Armata" ,sans-serif;
+    white-space:nowrap;
+}
+
+.navbar__list a{
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Armata" , sans-serif;
+}
+
+main{
+    background: var(--backgroundmain);
+    padding-top: 120px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.hero__info{
+   width: 60%;
+}
+
+.hero__info p{
+    text-align: center;
+    color: #8D8E90;
+    font-family: "armata" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem 3rem 0 3rem;
+    line-height: 25px;
+    
+}
+
+.hero h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--orange);
+    font-family: "exo" , sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 3rem 0 3rem 0;
+}
+
+.hero__container{
+    width: 40%;
+    padding: 2rem 2rem 2rem 2rem ;
+    
+}
+
+.hero__img{
+    width: 100%;
+    border: #ff8906 1.5px solid;
+    border-radius: 0.4rem;
+}
+
+.linea {
+    border-top: 1px solid #ff8906;
+    height: 2px;
+    padding: 0;
+    margin: 3rem auto 3rem auto;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goals__container{
+    display: flex;
+  }
+
+
+  .goals__img__container{
+    width: 40%;
+    padding: 2rem;
+  }
+
+  .info__goals__img{
+    border-radius: 0.4rem;
+    border: #ff8906 1.5px solid;
+    width: 100%
+    
+  } 
+
+    .info__goals{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        flex-direction: column;
+
+  }
+
+  .info__goals {
+    font-family: "exo" , sans-serif;
+    color: var(--orange);
+    text-align: center;
+    font-size: 30px ;
+    
+  }
+
+  .info__goals p{
+    color: #8D8E90;
+    text-align: center;
+    font-family: "armata" , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2rem 3rem 0 3rem;
+    line-height: 25px;
+
+  }
+
+  .aboutus__container{
+    display: flex;
+    padding-top: 2rem;
+  }
+
+  .info__aboutus{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .aboutus__img__container{
+    width: 40%;
+    padding: 2rem;
+  }
+
+  .info__aboutus__img{
+    border-radius: 0.4rem;
+    border: #ff8906 1.5px solid;
+    width: 100%
+  }
+
+  .info__aboutus h2{
+    font-family: "exo" , sans-serif;
+    color: var(--orange);
+    text-align: center;
+    font-size: 32px ;
+    
+  }
+
+  .info__aboutus p{
+    color: #8D8E90;
+    text-align: center;
+    font-family: "armata" , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2rem 3rem 0 3rem;
+    line-height: 25px;
+  }
+
+  .repairs{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .repairs h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--orange);
+    font-family: "exo" , sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 6rem;
+
+  }
+
+  ::-webkit-scrollbar{
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background: var(--backgroundcolornav);
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--secondary);
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background: #F32E14;
+  }
+
+
+  
+  .card__container{
+    display: flex;
+    gap: 15px;
+    flex: 0 0 100%;
+    max-width: 400px;
+    width: 100%;
+    background: var(--orange);
+    border-radius: 12px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 15px;
+  }
+
+  .card__container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--backgroundcolornav);
+    border-radius: 12px;
+    scroll-snap-align: start;
+    padding: 40px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .card .card__image{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    padding: 4px;
+    background-color: var(--orange);
+    border-radius: 50%;
+  }
+
+  .card__image{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .card__image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--backgroundcolornav);
+  }
+
+  .card h3{
+    margin-top: 25px;
+    color: var(--orange);
+    font-size: 22px;
+    font-family: "exo" ,sans-serif;
+    font-weight: 600;
+    white-space:nowrap;
+  }
+
+  .card p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--secondary);
+    text-align: center;
+    font-family: "armata" , sans-serif;
+  }
+
+ 
