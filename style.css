@@ -88,6 +88,8 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 
 
 }
@@ -140,6 +142,8 @@ main{
   #info{
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+     margin: 0 auto;
   }
 
   .goals__container{
@@ -231,10 +235,11 @@ main{
 
   #repairs{
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   #repairs h2{
@@ -341,6 +346,8 @@ main{
     gap: 5rem;
     padding-left: 5rem;
     margin-top: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 
   }
 
@@ -504,7 +511,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
   }
 
@@ -517,16 +523,16 @@ main{
     padding-bottom: 10px;
   }
 
-  .social__icons_position{
+  .social__icons__position{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
   }
 
   .social__icons__position img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
   }
 
   .logo__copy__footer{
@@ -539,13 +545,14 @@ main{
   }
 
   .logo__footer{
-    height: 50px;
+    height: 40px;
     width: auto;
   }
 
   .copyright{
     color: var(--secondary);
     padding-top: 10px;
+    text-align: center;
   }
 
   .off__footer{
@@ -558,6 +565,7 @@ main{
   .off__footer__p{
     color: var(--orange);
     padding: 15px;
+    text-align: center;
   }
 
   .off__footer__p a{
