@@ -58,6 +58,8 @@ header{
 
 .navbar__login{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     padding-left: 1.5rem;
     padding-right: 1rem;
@@ -83,6 +85,7 @@ main{
     background: var(--backgroundmain);
     padding-top: 120px;
 }
+
 
 #hero{
   display: flex;
@@ -115,9 +118,9 @@ main{
     text-align: center;
     color: var(--orange);
     font-family: "exo" , sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 800;
-    padding: 3rem 0 3rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 .hero__container{
@@ -144,6 +147,7 @@ main{
     flex-direction: column;
     max-width: 1200px;
      margin: 0 auto;
+     scroll-margin-top: 100px;
   }
 
   .goals__container{
@@ -178,6 +182,10 @@ main{
     text-align: center;
     font-size: 30px ;
     
+  }
+
+  .info__goals h2{
+    font-size: 32px
   }
 
   .info__goals p{
@@ -240,6 +248,7 @@ main{
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    scroll-margin-top: 150px;
   }
 
   #repairs h2{
@@ -250,7 +259,7 @@ main{
     font-family: "exo" , sans-serif;
     font-size: 36px;
     font-weight: 800;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 
   }
 
@@ -348,6 +357,7 @@ main{
     margin-top: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    scroll-margin-top: 250px;
 
   }
 
@@ -372,7 +382,7 @@ main{
   }
 
   .h3__form{
-    font-family: "armata" , sans-serif;
+    font-family: "exo" , sans-serif;
     color: var(--orange);
     font-size: 26px;
     text-align: center; 
@@ -454,6 +464,9 @@ main{
     margin:auto;
   }
 
+  #email
+
+
   .form__email::placeholder{
     color: var(--grey);
   }
@@ -488,6 +501,7 @@ main{
     font-size: 26px;
     text-align: center; 
     padding-top: 3.5rem;
+    height: 20%;
   }
 
   .location p{
@@ -551,7 +565,7 @@ main{
 
   .copyright{
     color: var(--secondary);
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
   }
 
@@ -573,12 +587,159 @@ main{
 
   }
 
+  .menu__label,
+ #menu {
+    display: none;
+ }
 
+/* Register page */
 
+.register__container{
+  background: var(--backgroundcolornav);
+    width: 25rem;
+    height: 49rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 0 0;
+    border: #f25f4c 2px solid;
+}
 
+#register__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
 
+}
 
+#register__section p{
+  color: #ff8906;
+    font-family: "exo" ,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
 
+#register__section h2{
+  font-family: "exo" , sans-serif;
+    color: var(--orange);
+    text-align: center;
+    font-size: 32px ;
+    padding-bottom: 2rem;
+}
+
+.main__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+
+}
+
+.register__input{
+  background: var(--backgroundmain);
+    border-radius: 0.3rem;
+    width: 80%;
+    height: 3rem;
+    color: var(--grey);
+    font-size: 16px;
+    padding: 10px;
+    border: var(--secondary) 3px solid;
+    margin:auto;
+}
+
+.register__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.p__register{
+  padding-left: 3.9rem;
+}
+
+/* Login page */
+
+#login__section p{
+  color: #ff8906;
+    font-family: "exo" ,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+#login__section h2{
+  font-family: "exo" , sans-serif;
+    color: var(--orange);
+    text-align: center;
+    font-size: 32px ;
+    padding-bottom: 2rem;
+}
+
+.login__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.login__container{
+  background: var(--backgroundcolornav);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 0 0;
+    border: #f25f4c 2px solid;
+}
+
+.form__submit__login{
+  background: linear-gradient(to top  , #f25f4c , #E54923);
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "armata" ,sans-serif;
+  font-weight: 600;
+  width: 9rem;
+  height: 4rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+.login__label{
+  white-space:nowrap;
+  text-align: center;
+  padding-left: 1%;
+}
+
+.p__login{
+  text-align: center;
+  padding-left: 12%;
+}
+
+.off__p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 12px;
+  font-family: "exo" ,sans-serif;
+  font-weight: 800;
+  display: none;
+}
+
+.off__span{
+  color: var(--orange);
+    padding: 15px;
+    text-align: center;
+}
+
+.off__span a{
+  color: var(--secondary);
+}
 
 
  

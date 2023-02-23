@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo de tecnobot" class="navbar__logo">
+        <nav class="navbar">
+            <label for="menu" class="menu__label">
+                <img src="./img/menu.png" alt="" class="menu__icon">
+            </label>
+            <input type="checkbox"  id="menu">
+            <ul class="navbar__list">
+                <li><a href="index.html" >Inicio</a></li>
+                <li><a href="#" >Beneficios</a></li>
+                <li><a href="#" >Consultas</a></li>
+                <li><a href="#" >Contacto</a></li>
+            </ul>
+            <ul class="navbar__login">
+                <li><a href="register.html" class="register">Registrate</a></li>
+                <li><a href="login.html" class="login">Inicia Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main__form">
+        <div class="register__container">
+            <section id="register__section">
+                <h2>¡Registrate ahora!</h2>
+                <form class="register__form">
+                    <p class="p__register"><label class="register__label" for="name">Nombre</label></p>
+                    <input class="register__input" type="text" id="name" placeholder="Ingrese su nombre"><br>
+
+                    <p class="p__register"><label class="register__label" for="lastname">Apellido</label></p>
+                    <input class="register__input" type="text" id="lastname" placeholder="Ingrese su apellido"><br>
+
+                    <p class="p__register"><label class="register__label" for="username">Nombre de usuario</label></p>
+                    <input class="register__input" type="text" id="username" placeholder="Nombre de usuario"><br>
+
+                    <p class="p__register"><label class="register__label" for="passwd">Contraseña</label></p>
+                    <input class="register__input" type="password" id="passwd" placeholder="Ingrese Contraseña"><br>
+                    
+                    <p class="p__problems"><label class="margin__tittle" for="email">Ingrese mail</label></p>
+                    <input class="form__email" type="email" id="email" placeholder="Ejemplo@gmail.com"><br><br>
+
+                    <input type="button" value="Registrarse" class="form__submit" href="#">
+
+                </form>
+            </section>   
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="social__footer">
+            <div class="social__p">
+                <p>Redes sociales</p>
+            </div>
+            <div class="social__icons__position">
+            <a href="#"><img src="./img/fblogo.png" class="social__icons1"></a>
+            <a href="#"><img src="./img/iglogo.png" class="social__icons2"></a>
+            <a href="#"><img src="./img/twlogo.png" class="social__icons3"></a>
+            <a href="#"><img src="./img/ytlogo.png" class="social__icons4"></a>
+            </div>
+        </div>
+        <div class="logo__copy__footer">
+            <a  href="#"> <img class="logo__footer" src="./img/logo.png"></a>
+            <p class="copyright">Copyright © 2023 Tecnobot. All Rights Reserved</p>
+        </div>
+
+        <div class="off_footer">
+            <p class="off__footer__p">Los clientes que sean usuarios en nuestra web tienen un 20% de descuento en su primer consulta
+             y un cupon del 20% de descuento para un amigo que necesite nuestra ayuda. Si este se registra 
+            tendra un 40% total. <a href=".register">¡Registrate ahora!</a> </p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

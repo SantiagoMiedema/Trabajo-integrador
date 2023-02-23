@@ -1,0 +1,346 @@
+@media (max-width: 1024px  ){
+
+.navbar
+.navbar__list{
+    display: none;
+}
+
+.navbar__list{
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    right: 5%;
+    width: 30%;
+    flex-direction: column;
+    background-color: #0f0e17;
+    border: 0.2rem solid var(--secondary);
+    border-top: 0;
+    border-radius: 0px 0px 15px 15px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    z-index: 2;
+}
+
+.menu__label{
+    display: flex;
+    order: 2;
+    cursor: pointer;
+}
+
+.menu__icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.navbar__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    padding-left: 22%;
+}
+
+#menu:checked+ 
+.navbar__list {
+    display: flex;
+    
+
+}
+}
+
+@media (max-width: 1024px  ){
+
+.navbar{
+    padding-left: 21%;
+}
+
+#hero{
+    flex-direction: column;
+}
+
+.hero__info{
+    width: 85%;
+}
+
+
+
+.hero__container{
+    width: 70%;
+}
+
+#info{
+    flex-direction: column;
+}
+
+.info__goals{
+    padding-left: 0;
+    width: 70%;
+}
+
+.goals__container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.goals__img__container{
+    width: 50%;
+   order: 2;
+   
+}
+
+.aboutus__container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus__img__container{
+    width: 50%;
+   
+}
+
+
+
+.info__goals p{
+    padding: 2rem 0 0 0;
+}
+
+.info__aboutus{
+    padding-bottom: 1rem;
+    width: 70%;
+}
+
+
+
+#form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.form__container{
+    width: 60%;
+}
+
+.location{
+    margin-right: 0;
+    width: 60%;
+    border-radius: 0;
+}
+
+.social__icons__position{
+    gap: 10px;
+}
+
+.social__icons__position img{
+    width: 30px;
+    height: 30px;
+  }
+
+
+.logo__footer{
+    width: auto;
+    height: 25pxpx;
+}
+
+.copyright{
+    font-size: 12px;
+}
+
+
+.off__footer__p{
+    font-size: 12px;
+    
+    
+}
+
+
+}
+
+
+
+
+@media (max-width: 768px  ){
+
+.navbar{
+    padding-left: 14%;
+}
+
+.navbar__logo{
+    height: 70%;
+}
+
+.navbar__login a{
+    font-size: 12px;
+}
+
+.register {
+    font-size: 10px;
+}
+
+#hero{
+    flex-direction: column;
+}
+
+.hero__info{
+    width: 85%;
+}
+
+.hero__info h1{
+    font-size: 30px;
+}
+
+.hero__container{
+    width: 80%;
+}
+
+
+
+#info{
+    flex-direction: column;
+}
+
+
+
+.goals__img__container{
+    display: none;
+    width: 0%;
+    height: 0%;
+}
+
+.info__goals__img{
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.aboutus__img__container{
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.info__aboutus__img{
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.info__goals{
+  padding-left: 0%;
+  width: 80%;
+}
+
+.info__goals p{
+    padding: 2rem 0 0 0;
+}
+
+.info__aboutus{
+    padding-left: 0%;
+    width: 80%;
+}
+
+.h3__form{
+    font-size: 24px;
+    padding: 2rem 0 3rem 0;
+}
+
+#form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.p__problems{
+   display: flex;
+   justify-content: center;
+   padding-right: 4rem;
+   white-space:nowrap;
+   
+}
+
+.form__container{
+    width: 60%;
+}
+
+.location{
+    margin-right: 0;
+    width: 60%;
+    border-radius: 0;
+}
+
+.location h2{
+    font-size: 20px;
+}
+
+.social__icons__position{
+    gap: 8px;
+}
+
+.social__icons__position img{
+    width: 30px;
+    height: 30px;
+  }
+
+.logo__footer{
+    width: auto;
+    height: 30px;
+}
+
+.copyright{
+    font-size: 12px;
+}
+
+
+.off__footer {
+    display: none;
+}
+.off__footer__p{
+    display: none;    
+}
+
+.off__p{
+    display: flex;
+}
+
+}
+
+
+@media (max-width: 576px  ){
+
+.navbar__login{
+    padding-left: 0%;
+    justify-content: center;
+}
+
+
+.hero__info p{
+ font-size: 14px;
+}
+
+#repairs h2{
+    padding-bottom: 3rem;
+}
+
+
+@media (max-width: 470px  ){
+
+.navbar__login{
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 10%;
+
+}
+
+
+}
+
+
+ 
+}
+
