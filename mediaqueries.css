@@ -190,9 +190,14 @@
     width: 85%;
 }
 
-.hero__info h1{
-    font-size: 30px;
+#hero h1{
+    font-size: 24px;
 }
+
+.hero__info p{
+    font-size: 14px;
+}
+
 
 .hero__container{
     width: 80%;
