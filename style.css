@@ -72,6 +72,7 @@ header{
     font-weight: 800;
     font-family: "Armata" ,sans-serif;
     white-space:nowrap;
+    transition: 0.5s;
 }
 
 .navbar__list a{
@@ -79,6 +80,7 @@ header{
     font-size: 16px;
     font-weight: 400;
     font-family: "Armata" , sans-serif;
+    transition: 0.5s;
 }
 
 main{
