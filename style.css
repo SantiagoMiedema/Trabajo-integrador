@@ -105,7 +105,7 @@ main{
     text-align: center;
     color: #8D8E90;
     font-family: "armata" , sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 1rem 3rem 0 3rem;
     line-height: 25px;
@@ -263,25 +263,6 @@ main{
 
   }
 
-  ::-webkit-scrollbar{
-    height: 8px;
-  }
-
-  ::-webkit-scrollbar-track{
-    background: var(--backgroundcolornav);
-    border-radius: 25px;
-  }
-
-  ::-webkit-scrollbar-thumb{
-    background-color: var(--secondary);
-    border-radius: 25px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover{
-    background: #F32E14;
-  }
-
-
   
   .card__container{
     display: flex;
@@ -372,11 +353,11 @@ main{
   .form__container{
     background: var(--backgroundcolornav);
     width: 45%;
-    height: 47rem;
+    height: auto;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0 2rem 0;
     border: #f25f4c 2px solid;
     
   }
@@ -409,22 +390,13 @@ main{
       
    }
 
-   .form__problem:hover{
-    background: var(--orange);
-    color: var(--backgroundmain)
-   }
-
-   .formulary input[type="radio"]:checked + label{
-    background: var(--secondary);
-    color: black;
-   }
 
   .formulary p{
     color: #ff8906;
     font-family: "exo" ,sans-serif;
     font-size: 22px;
     font-weight: 600;
-    padding-bottom: 1rem;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
   }
 
   
@@ -472,7 +444,11 @@ main{
   }
 
   .form__submit{
-    background: linear-gradient(to top  , #f25f4c , #E54923);
+    background: var(--backgroundmain);
+    color: var(--orange);
+    transition: 0.5s;
+    border-color: #E54923;
+    border-width: 3px;
     border-radius: 10px;
     font-size: 18px;
     font-family: "armata" ,sans-serif;
@@ -584,6 +560,7 @@ main{
 
   .off__footer__p a{
     color: var(--secondary);
+    font-size: 16px;
 
   }
 
@@ -597,11 +574,11 @@ main{
 .register__container{
   background: var(--backgroundcolornav);
     width: 25rem;
-    height: 49rem;
+    height: auto;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0.5rem 2rem 0.5rem;
     border: #f25f4c 2px solid;
 }
 
@@ -634,7 +611,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 4rem;
+  padding: 8rem 3rem 4rem 3rem;
 
 }
 
@@ -666,7 +643,7 @@ main{
 #login__section p{
   color: #ff8906;
     font-family: "exo" ,sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     padding-bottom: 1rem;
 }
@@ -675,7 +652,7 @@ main{
   font-family: "exo" , sans-serif;
     color: var(--orange);
     text-align: center;
-    font-size: 32px ;
+    font-size: 28px ;
     padding-bottom: 2rem;
 }
 
@@ -689,22 +666,25 @@ main{
 .login__container{
   background: var(--backgroundcolornav);
     width: 20rem;
-    height: 30rem;
+    height: auto;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 0 0;
+    padding: 2rem 0 2rem 0;
     border: #f25f4c 2px solid;
 }
 
 .form__submit__login{
-  background: linear-gradient(to top  , #f25f4c , #E54923);
+  background: var(--backgroundmain) ;
+  color: var(--orange);
+  transition: 0.5s;
+  border-color: #E54923;
+  border-width: 3px;
   border-radius: 10px;
   font-size: 18px;
   font-family: "armata" ,sans-serif;
   font-weight: 600;
-  width: 9rem;
-  height: 4rem;
+  padding: 12px 8px 12px 8px;
   margin: auto;
   cursor: pointer;
 }
@@ -717,6 +697,7 @@ main{
 
 .p__login{
   text-align: center;
+  font-size: 1px;
   padding-left: 12%;
 }
 

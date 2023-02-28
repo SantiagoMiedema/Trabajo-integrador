@@ -8,9 +8,9 @@
 .navbar__list{
     position: absolute;
     top: 100px;
-    left: 60%;
+    left: 24%;
     right: 5%;
-    width: 30%;
+    width: 50%;
     flex-direction: column;
     background-color: #0f0e17;
     border: 0.2rem solid var(--secondary);
@@ -38,9 +38,7 @@
     align-items: center;
 }
 
-.navbar{
-    padding-left: 22%;
-}
+
 
 #menu:checked+ 
 .navbar__list {
@@ -48,9 +46,7 @@
     
 
 }
-}
 
-@media (max-width: 1024px  ){
 
 .navbar{
     padding-left: 21%;
@@ -265,7 +261,7 @@
    display: flex;
    justify-content: center;
    padding-right: 4rem;
-   white-space:nowrap;
+   
    
 }
 
@@ -340,6 +336,35 @@
     gap: 1rem;
     padding-left: 10%;
 
+}
+
+#repairs h2{
+    font-size: 24px;
+}
+
+.formulary p{
+    font-size: 18px;
+}
+
+.card__container{
+    max-width: 250px;
+}
+
+.card__container .card{
+    padding: 0;
+}
+
+.card__image{
+    margin: 35px;
+}
+
+.card h3{
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.card p{
+    font-size: 14px;
 }
 
 
